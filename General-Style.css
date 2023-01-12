@@ -1,0 +1,17 @@
+/* ...General... */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.clr {
+    clear: both;
+}
+
+a:link, a:visited, a:hover, a:active {
+    /* color: #ffffff; */
+    text-decoration: none;
+    background-color: none;
+}

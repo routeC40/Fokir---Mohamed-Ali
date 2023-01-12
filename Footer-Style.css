@@ -1,0 +1,35 @@
+/* ...Footer... */
+.footer {
+    width: 100%;
+    text-align: center;
+    background-color: #333333;
+}
+
+.footer-container {
+    width: 30%;
+    margin: auto;
+    padding-block: 50px;
+}
+
+.footer-container p {
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.footer-container a {
+    color: red;
+}
+
+.footer-container a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.icons {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.icons i {
+    padding-inline: 10px;
+}

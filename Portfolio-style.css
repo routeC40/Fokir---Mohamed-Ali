@@ -1,0 +1,96 @@
+/* ...Portfolio... */
+.Portfolio {
+    width: 100%;
+    text-align: center;
+}
+
+.Portfolio-container {
+    width: 80%;
+    margin: auto;
+    padding-block: 50px;
+}
+
+.Portfolio-title {
+    width: 100%;
+    float: left;
+}
+
+.Portfolio-title h2 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 30px;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.Portfolio-title h2::after {
+    content: '';
+    background-color: #ff305b;
+    bottom: 5px;
+    height: 1px;
+    width: 160px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.Portfolio-title h2::before {
+    content: '';
+    border-color: #ff305b;
+    border-style: solid;
+    border-width: 1px 0;
+    padding: 4px 0 5px;
+    width: 70px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.portfolio-menu {
+    width: 100%;
+    float: left;
+    margin-bottom: 50px;
+}
+.portfolio-menu button{
+    background-color: #ffffff;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 3px 12px;
+}
+.portfolio-menu button:focus{
+    color: #ff305b;
+}
+.portfolio-img-container{
+    width: 100%;
+    margin: auto;
+    padding: 40px;
+}
+.portfolio-one-img{
+    width: 33.333%;
+    float: left;
+    padding: 0px 15px 30px;
+}
+.portfolio-box-img-container{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.portfolio-box-img-container img{
+    width: 100%;
+}
+
+.portfolio-img-box{
+    width: 2000px;
+    height: 2000px;
+    background-color: #686868;
+    opacity: 0.7;
+    position: absolute;
+    top: 100%;
+}
+
+.portfolio-box-img-container:hover .portfolio-img-box{
+    top: 0;
+}

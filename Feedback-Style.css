@@ -1,0 +1,115 @@
+/* ...Feedback... */
+.feedback {
+    width: 100%;
+    text-align: center;
+}
+
+.feedback-container {
+    width: 80%;
+    margin: auto;
+    padding-block: 50px;
+}
+
+.feedback-title {
+    width: 100%;
+    float: left;
+}
+
+.feedback-title h2 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 30px;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.feedback-title h2::after {
+    content: '';
+    background-color: #ff305b;
+    bottom: 5px;
+    height: 1px;
+    width: 160px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.feedback-title h2::before {
+    content: '';
+    border-color: #ff305b;
+    border-style: solid;
+    border-width: 1px 0;
+    padding: 4px 0 5px;
+    width: 70px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.feed-card-container{
+    width: 60%;
+    max-width: 700px;
+    min-width: 700px;
+    min-height: 250px;
+    margin: auto;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    position: relative;
+}
+
+.feed-card-img{
+    width: 30%;
+    float: left;
+    border-left: 200px solid #ff305b;
+    border-right: 200px solid transparent;
+    border-bottom: 200px solid transparent;
+}
+
+.feed-card-container-img{
+    min-width: 15%;
+    float: left;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.feed-card-container-img img{
+    width: 80%;
+    min-width: 80%;
+    border-radius: 50%;
+}
+
+.feed-card-content{
+    width: 60%;
+    float: left;
+    text-align: left;
+    position: absolute;
+    top: 30px;
+    left: 200px;
+}
+
+.feed-card-content h3{
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.feed-card-content h4 a{
+    color: #777777;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.feed-card-content p{
+    font-size: 16px;
+    font-style: italic;
+}
+
+.stars{
+    color: #f1c30d;
+    margin-block: 12px;
+}
+ .stars i{
+    padding: 0;
+ }
